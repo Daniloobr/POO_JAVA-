@@ -1,18 +1,58 @@
-## Getting Started
+# 💳 BankAccount — Exercício de POO em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido como **exercício de Programação Orientada a Objetos (POO)** em Java, simulando uma **conta bancária simples** com interação via terminal.
 
-## Folder Structure
+Este projeto faz parte do repositório **POO_JAVA-**, na pasta `Exercicios/BankAccount`.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🧠 Descrição
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O programa permite ao usuário:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Informar o **nome do titular**
+- Informar o **valor do depósito inicial**
+- Exibir o **saldo da conta** após a criação
 
-## Dependency Management
+O objetivo é praticar conceitos básicos de POO, como **classes, atributos, métodos e encapsulamento**.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+
+---
+
+## 🚀 Como executar o projeto
+
+### 1️⃣ Compilar os arquivos Java
+```bash
+javac src/*.java
+
+java -cp src App
+
+Digite seu nome: Danilo
+Digite o valor do depósito inicial: 200
+Titular: Danilo
+Saldo: R$ 200.0
+
+
+## 🛠 Tecnologias Utilizadas
+
+- **Java**
+- **Scanner** (`java.util.Scanner`)
+- **Git & GitHub**
+
+---
+
+## 🎯 Objetivo Acadêmico
+
+Este projeto tem fins **educacionais**, sendo utilizado para reforçar os conceitos de:
+
+- Programação Orientada a Objetos (POO)
+- Entrada de dados pelo console
+- Organização de projetos Java
+- Controle de versão com Git
+
+
+
+## 📁 Estrutura do Projeto
+
